@@ -1,0 +1,199 @@
+.menu {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.menu {
+  font-family: Roboto;
+  display: flex;
+  max-width: 2000px;
+  margin: auto;
+  justify-content: center;
+  padding: 0px 10px;
+  height: 70px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.menu a:hover{
+color: #fff;
+font-size: 30px;
+
+}
+
+.logo {
+  font-family: Lucida Console;
+  font-size: 23px;
+  color: black;
+  padding: 5px 10px;
+}
+
+.menu a {
+  margin: 5px;
+  text-decoration: none;
+  color: #c2c2c2;
+}
+
+h1 {
+  text-align: center;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+h1:hover {
+  font-size: 45px;
+  color: #bdaa4d;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+   transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.gallery1Txt{
+  text-align: center;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            padding: 20px;
+            background-color: #333;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+
+        #close-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+            /*background-color: #fff*/;
+            color: #fff
+        }
+
+.openWin1Title {
+  color: #fff;
+}
+
+.openWin1Txt {
+  color: #fff;
+}
+
+.open-btn {
+  position: absolute;
+  /*top: 10px;
+  left: 10px;*/
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 25px 5px;
+}
+.gallery1Txt{
+  margin: 75px;
+}
+
+.gallery1Txt:hover {
+  font-size: 45px;
+  color: #80d1a0;
+}
+        .gallery1 {
+            max-width: 30%;
+            overflow: hidden;
+        }
+
+        .gallery1 img {
+            float: left;
+            width: 100%;
+            transition: transform 1s;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+
+.gallery1 img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 2000px;
+  margin: 50px auto;
+  padding: 20px 0;
+  color: #fff;
+  font-family: Lucida Console;
+  font-size: 15px;
+  border-radius: 15px;
+  
+}
+
+.fTxt {
+   font-size: 16px;
+   color: #fff;
+   transition: color 0.3s, font-size 0.3s;
+}
+
+.fTxt:hover {
+  font-size: 20px;
+  color: red;
+}
+
+ body {
+   background-color: #f0f0f0;
+   color: #333;
+   transition: background-color 0.5s, color 0.5s;
+        }
+
+ .dark-mode {
+   background-color: #858585;
+   color: #f0f0f0;
+  }
+
+button {
+ padding: 10px 20px;
+ border: 2px solid #333;
+ background-color: #f0f0f0;
+ color: #333;
+ cursor: pointer;
+}
+
